@@ -1,7 +1,7 @@
 AForge.NET Framework
 http://www.aforgenet.com/framework
 ==================================
-
+
 Copyright © AForge.NET, 2006-2013
 contacts@aforgenet.com
 
@@ -11,3 +11,10 @@ processing, neural networks, genetic algorithms, machine learning,
 robotics, etc.
 
 Please, contact project owners for any offers, remarks, ideas, etc.
+
+
+Copyright © exocad Gmbh, 2022
+
+Based on the original work of AForge, the libraries AForge (formerly named Core), Video and Video.DirectShow
+had been modified to run against .NET6. Since no other components (especially FFMPEG) are involved, the
+license remains LGPL 3.0.
