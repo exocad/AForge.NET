@@ -1,6 +1,6 @@
-# AForge.NET fork
+# AForge.NET
 
-This is a fork of https://github.com/andrewkirillov/AForge.NET by Andrew Kirillov which migrates the projects referenced by DentalCAD to .NET6. These projects are
+This is a fork of https://github.com/andrewkirillov/AForge.NET by Andrew Kirillov which adds .NET6 support to projects used within exocad. These projects are
 
  - Core
  - Video
