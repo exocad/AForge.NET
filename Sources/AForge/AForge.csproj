@@ -2,5 +2,15 @@
   <PropertyGroup>
     <OutputType>Library</OutputType>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+
+		<PackageId>Exocad.AForge</PackageId>
   </PropertyGroup>
+
+	<ItemGroup>
+		<None Include="$(SolutionDir)README.md" Pack="true" PackagePath="\"/>
+		<None Include="$(SolutionDir)License.txt" Pack="true" PackagePath="\"/>
+		<None Include="$(SolutionDir)lgpl-3.0.txt" Pack="true" PackagePath="\"/>
+		<None Include="$(SolutionDir)Copyright.txt" Pack="true" PackagePath="\"/>
+		<None Include="$(SolutionDir)Release notes.txt" Pack="true" PackagePath="\"/>
+	</ItemGroup>
 </Project>
