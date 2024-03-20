@@ -1,12 +1,20 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <OutputType>Library</OutputType>
-    <AssemblyTitle>AForge.Video</AssemblyTitle>
-
     <UseWindowsForms>true</UseWindowsForms>
-  </PropertyGroup>
 
-  <ItemGroup>
+		<PackageId>Exocad.AForge.Video</PackageId>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Include="$(SolutionDir)README.md" Pack="true" PackagePath="\"/>
+		<None Include="$(SolutionDir)License.txt" Pack="true" PackagePath="\"/>
+		<None Include="$(SolutionDir)lgpl-3.0.txt" Pack="true" PackagePath="\"/>
+		<None Include="$(SolutionDir)Copyright.txt" Pack="true" PackagePath="\"/>
+		<None Include="$(SolutionDir)Release notes.txt" Pack="true" PackagePath="\"/>
+	</ItemGroup>
+
+	<ItemGroup>
     <ProjectReference Include="..\AForge\AForge.csproj" />
   </ItemGroup>
 </Project>
