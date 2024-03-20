@@ -10,8 +10,8 @@ This is a fork of https://github.com/andrewkirillov/AForge.NET by Andrew Kirillo
  
 ## Compiling the migrated projects
 
-A VS2022 solution containing only the migrated projects can be found ins the `Sources` folder at: `./Sources/AForge.Video-Exocad.sln`. Since `WindowsForms` is used
-in some projects the generated assemblies are currently limited to Windows (`net6.0-windows`).
+A VS2022 solution containing only the migrated projects can be found in the root folder: `Exocad.AForge.Video.sln`. Since `WindowsForms` is used
+in some projects the generated assemblies are currently limited to Windows.
 
 ## Important Note
 
