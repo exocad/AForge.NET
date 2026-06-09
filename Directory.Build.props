@@ -1,10 +1,10 @@
 <Project>
 	<PropertyGroup>
-		<Version>2.2.5.0</Version>
-		<AssemblyVersion>2.2.5.0</AssemblyVersion>
+		<Version>2.2.6.0</Version>
+		<AssemblyVersion>2.2.6.0</AssemblyVersion>
 		<ProductName>AForge.NET</ProductName>
 		<Product>AForge.NET (modified by exocad GmbH, originally based work on of AForge and Andrew Kirillov)</Product>
-		<Copyright>Copyright © exocad GmbH 2021-2024, AForge 2012</Copyright>
+		<Copyright>Copyright © exocad GmbH 2021-2026, AForge 2012</Copyright>
 		<Authors>exocad GmbH, AForge and Andrew Kirillov</Authors>
 		<Company>exocad GmbH based on work of AForge</Company>
 
@@ -18,7 +18,7 @@
 	</PropertyGroup>
 
 	<PropertyGroup>
-		<TargetFrameworks>net48;net6.0-windows;net8.0-windows</TargetFrameworks>
+		<TargetFrameworks>net6.0-windows;net8.0-windows;net10.0-windows</TargetFrameworks>
 		<UseArtifactsOutput>true</UseArtifactsOutput>
 	</PropertyGroup>
 </Project>
